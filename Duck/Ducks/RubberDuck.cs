@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace Ducks
 {
-    public class RedheadDuck : Duckk, Quackable, Flyable
+    public class RubberDuck : Duckk, Quackable
     {
         public override string display()
         {
@@ -14,11 +14,7 @@ namespace Ducks
         }
         public string quack()
         {
-            return "кря кря" + this.GetType();
-        }
-        public string fly()
-        {
-            return "хлоп хлоп" + this.GetType();
+            return "quack " + this.GetType();
         }
     }
 }
