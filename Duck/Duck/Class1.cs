@@ -11,12 +11,11 @@ namespace Duck
     {
         static void Main(string[] args)
         {
-            Duckk[] duck = new Duckk[] { new MallarDuck(), new RedheadDuck() };
+            Duckk[] duck = new Duckk[] { new RedheadDuck() };
 
             foreach (Duckk look in duck)
             {
                 Console.WriteLine(look.swim());
-                Console.WriteLine(look.quack());
                 Console.WriteLine(look.display());
             } 
             Console.ReadKey();
